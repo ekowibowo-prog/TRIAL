@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(130, 255, 240);
+    background-image: url(satoru.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 20%;
+}
+h1 {
+    font-size: 40px;
+    color: rgb(88, 34, 18);
+    font-variant: small-caps;
+}
+pre {
+    color: orange;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight:bold;
+    line-height: 30px;
+    text-align: center;
+    /* atau bisa juga mempersingkat code dengan cara seperti berikut */
+    /* font: italic(font-style) normal(font-variant) bold(font-weight) 16px/18px(font-size {ini wajib}/line-height) velvetica,arial,sans-serif(font-family {ini wajib}); */
+}
+
+audio {
+    display: grid;
+}
